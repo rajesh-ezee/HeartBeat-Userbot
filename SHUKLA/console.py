@@ -50,7 +50,7 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". !").split())
 
 # PM GUARD VARS
 PM_GUARD = bool(getenv("PM_GUARD", True))
-PM_GUARD_TEXT = getenv("PM_GUARD_TEXT", ""**Telegram**")
+PM_GUARD_TEXT = getenv("PM_GUARD_TEXT", "**Telegram**")
 PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 
 
