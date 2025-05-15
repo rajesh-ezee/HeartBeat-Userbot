@@ -30,8 +30,8 @@ if os.path.exists("Internal"):
 
 API_ID = int(getenv("API_ID", "29650844"))
 API_HASH = getenv("API_HASH", "6154d581d370cbdadd240292c456d7a2")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "7285188191:AAGNcqe8WaqwnbB399m1CcJfLD4v5W0wJHY")
+STRING_SESSION = getenv("STRING_SESSION", "BQHEb5wAjh-VJhJTbGAt_16pIrZF4l6cjP-QxNGnnWSaWCZK7VXM4CeOa-7tvG2zawSFwjJ7j-2RgUSRQFMVNQG1MClEtmKV7gdGGiLliJLyQdAbclUPdpkqSWtyiQHrpekPh98VVCOPR97aryTuNZ1fDfIb5_fq0Ik1HTJNV3pv-YMpL2bcpM6r24rDmu_9v9L1wSkaZAQfXTPFNLZuuOspTwWFf-SWu15jYNn8KGohQOalyPkIDWCozJYarP4gwokvEb4EM55nP7GgeQFmc9YymT0hGoDQfNF91g-AOmCWTSqp2o9rU5EojNImgDc91TbCHS8u7k7TvHixm_JJF2NXzzf6RwAAAAHHZ9BxAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1004832575234"))
 OWNER_ID = int(getenv("OWNER_ID", "5802254428"))
