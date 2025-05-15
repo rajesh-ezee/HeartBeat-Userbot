@@ -1,6 +1,6 @@
 from asyncio.queues import QueueEmpty
 from pyrogram import filters
-from pytgcalls.exceptions import GroupCallNotFound
+from pytgcalls.exceptions import NoActiveGroupCall
 
 from ... import *
 from ...modules.mongo.streams import *
@@ -55,7 +55,7 @@ async def audio_stream(client, message):
                     chat_id, file=file, type=type
                 )
                 await aux.edit(f"Queued At {position}")
-        except GroupCallNotFound:
+        except NoActiveGroupCall:
             stream = await run_stream(file, type)
             await call.join_group_call(chat_id, stream)
             await aux.edit("Playing!")
@@ -113,7 +113,7 @@ async def video_stream(client, message):
                     chat_id, file=file, type=type
                 )
                 await aux.edit(f"Queued At {position}")
-        except GroupCallNotFound:
+        except NoActiveGroupCall:
             stream = await run_stream(file, type)
             await call.join_group_call(chat_id, stream)
             await aux.edit("Playing!")
@@ -180,7 +180,7 @@ async def audio_stream_(client, message):
                     chat_id, file=file, type=type
                 )
                 await aux.edit(f"Queued At {position}")
-        except GroupCallNotFound:
+        except NoActiveGroupCall:
             stream = await run_stream(file, type)
             await call.join_group_call(chat_id, stream)
             await aux.edit("Playing!")
@@ -243,7 +243,7 @@ async def video_stream_(client, message):
                     chat_id, file=file, type=type
                 )
                 await aux.edit(f"Queued At {position}")
-        except GroupCallNotFound:
+        except NoActiveGroupCall:
             stream = await run_stream(file, type)
             await call.join_group_call(chat_id, stream)
             await aux.edit("Playing!")
