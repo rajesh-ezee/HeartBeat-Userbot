@@ -8,8 +8,8 @@ To Activate Or Deactivate.**
 `.cr` - Activate Chat Raid.
 `.dcr` - De-Activate Chat Raid.
 
-`.fr` - Activate Fuck Raid.
-`.dfr` - De-Activate Fuck Raid.
+`.fr` - Activate uruttu Raid.
+`.dfr` - De-Activate uruttu Raid.
 
 `.lr` - Activate Love Raid.
 `.dlr` - De-Activate Love Raid.
