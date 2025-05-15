@@ -1,7 +1,7 @@
 from ... import *
 from ...modules.mongo.streams import *
 from pyrogram import filters
-from pytgcalls.exceptions import GroupCallNotFound
+from pytgcalls.exceptions import NoActiveGroupCall
 
 
 @app.on_message(cdx(["pse", "pause"]) & ~filters.private)
@@ -17,7 +17,7 @@ async def pause_stream(client, message):
             await eor(message, "**Already Paused!**")
         elif a.status == "not_playing":
             await eor(message, "**Nothing Streaming!**")
-    except GroupCallNotFound:
+    except NoActiveGroupCall:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
@@ -41,7 +41,7 @@ async def pause_stream_(client, message):
             await eor(message, "**Already Paused!**")
         elif a.status == "not_playing":
             await eor(message, "**Nothing Streaming!**")
-    except GroupCallNotFound:
+    except NoActiveGroupCall:
         await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
