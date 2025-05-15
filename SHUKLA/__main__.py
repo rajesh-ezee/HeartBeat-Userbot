@@ -32,7 +32,7 @@ async def main():
     logs.info(">> Successfully Imported All Plugins.")
     await run_async_inline()
     logs.info("Successfully Deployed !!")
-    logs.info("Do Visit - @MASTIWITHFRIENDSXD")
+    logs.info("Do Visit - @HeartBeat_Muzic")
     await idle()
 
 
