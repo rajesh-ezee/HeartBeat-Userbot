@@ -78,16 +78,16 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://files.catbox.moe/r58nec.jpg",
-                                title="🥀 Shukla Userbot ✨",
-                                thumb_url=f"https://files.catbox.moe/r58nec.jpg",
-                                description=f"🌷 Deploy Your Own SHUKLAUSERBOT🌿...",
-                                caption=f"<b>🥀 Welcome » To » Shukla 🌷\n✅ Userbot {__version__} ✨...</b>",
+                                photo_url=f"https://graph.org/file/9ee37cccd7bf55c3ec953.png",
+                                title="🥀 HeartBeat Assistant ✨",
+                                thumb_url=f"https://graph.org/file/9ee37cccd7bf55c3ec953.png",
+                                description=f"🌷 Deploy Your Own HeartBeat-Assistant 🌿...",
+                                caption=f"<b>🥀 Welcome » To » HeartBeat 🌷\n✅ Assistant {__version__} ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
                             )
                         )
                     ],
-                )
+                 )
             except Exception as e:
                 print(str(e))
                 await bot.answer_inline_query(
@@ -98,7 +98,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Shukla Userbot❗...\n\nRepo:** <i>https://github.com/itzshukla/STRANGER-OPUSERBOT2.0/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own HeartBeat Assistant❗...\n\n Repo:** <i>https://t.me/HeartBeat_Muzic</i>||"
                                 ),
                             )
                         )
