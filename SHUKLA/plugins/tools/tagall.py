@@ -67,7 +67,7 @@ __MENU__ = """
 `.gntop` - **to stop tagger**
 `.gmtag` - **good morning tagall**
 `.gmstop` - **to stop tagger**
-`.shayari` - **good night msg tagall**
-`.shayaristop` - **to stop tagger**
+`.hbtag` - **good night msg tagall**
+`.hbstop` - **to stop tagger**
 
 """
