@@ -110,10 +110,10 @@ To Protect From DM Spams ✨.**
 `.pmguard [`on`|off`] - Activate
 or Deactivate PM Guard Security.
 
-`.approve` - Approve An User For
+`.a` - Approve An User For
 Chat With in DM.
 
-`.disapprove` - To Disapprove An
+`.da` - To Disapprove An
 User (Remove From Allowed List).
 
 `.block` - Block An User And Add
