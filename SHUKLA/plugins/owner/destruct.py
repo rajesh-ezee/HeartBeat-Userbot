@@ -4,7 +4,7 @@ from ... import *
 from pyrogram import filters
 
 
-@app.on_message(cdz(["😋🥰", "op", "wow", "super", "😋😍"])
+@app.on_message(cdz(["ham","wait","enna","paken","🙄🙄","👀👀","mm","ha"])
     & filters.private & filters.me)
 async def self_media(client, message):
     try:
@@ -29,5 +29,5 @@ To Your Saved Message ✨**
 `.op` - Use This Command By\nReplying On Self-Destructed
 Photo/Video.
 
-**🌿 More Commands:**\n=> [😋🥰, wow, super, 😋😍]
+**🌿 More Commands:**\n=> ["ham","wait","enna","paken","🙄🙄","👀👀","mm","ha"]
 """
