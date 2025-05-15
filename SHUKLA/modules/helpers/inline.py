@@ -11,22 +11,22 @@ async def help_menu_logo(answer):
     if image:
         thumb_image = image
     else:
-        thumb_image = "https://files.catbox.moe/r58nec.jpg"
+        thumb_image = "https://graph.org/file/ffdb1be822436121cf5fd.png"
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
             title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of SHUKLAUSERBOT ✨...",
+           description=f"💕  Open Help Menu Of HeartBeat-Assistant 🦋...",
             caption=f"""
-            **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
-sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+**💕  Welcome To Help Menu Of
+𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-✗-𝐁𝐨𝐭 » {__version__} 🦋...
  
 ❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
 ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️
  
-🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [  ᴜᴘᴅᴀᴛᴇ ](https://t.me/SHIVANSH474) 🌹**""",
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘](https://t.me/HeartBeat_Muzic)**""",
             reply_markup=InlineKeyboardMarkup(button),
         )
     )
@@ -41,12 +41,12 @@ async def help_menu_text(answer):
             title="💫 ʜᴇʟᴘ ᴍᴇɴᴜ  ✨",
             input_message_content=InputTextMessageContent(f"""
             **💫 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏᴘ.
-sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ  » {__version__} ✨
+𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-✗-𝐁𝐨𝐭 » {__version__} 🦋...
  
 ❤️ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ᴛᴏ
 ɢᴇᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs ❤️
  
-🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [ ᴜᴘᴅᴀᴛᴇ ](https://t.me/SHIVANSH474) 🌹**""",
+🌹ᴘᴏᴡᴇʀᴇᴅ ʙʏ ♡  [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘](https://t.me/HeartBeat_Muzic)**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
