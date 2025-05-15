@@ -28,20 +28,20 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "29650844"))
+API_HASH = getenv("API_HASH", "6154d581d370cbdadd240292c456d7a2")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-OWNER_ID = int(getenv("OWNER_ID", "6762113050"))
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1004832575234"))
+OWNER_ID = int(getenv("OWNER_ID", "5802254428"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", None)
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6919199044").split()))
-ALIVE_PIC = getenv("ALIVE_PIC", "https://files.catbox.moe/uufiry.jpg")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5802254428").split()))
+ALIVE_PIC = getenv("ALIVE_PIC", "https://forestryexplained.co.za/wp-content/uploads/2020/01/Telegram-logo-Featured.jpg")
 
 
 # OPTIONAL VARIABLES
-SESSION_STRING = getenv("SESSION_STRING", None)
+SESSION_STRING = getenv("SESSION_STRING", "BQHEb5wAjh-VJhJTbGAt_16pIrZF4l6cjP-QxNGnnWSaWCZK7VXM4CeOa-7tvG2zawSFwjJ7j-2RgUSRQFMVNQG1MClEtmKV7gdGGiLliJLyQdAbclUPdpkqSWtyiQHrpekPh98VVCOPR97aryTuNZ1fDfIb5_fq0Ik1HTJNV3pv-YMpL2bcpM6r24rDmu_9v9L1wSkaZAQfXTPFNLZuuOspTwWFf-SWu15jYNn8KGohQOalyPkIDWCozJYarP4gwokvEb4EM55nP7GgeQFmc9YymT0hGoDQfNF91g-AOmCWTSqp2o9rU5EojNImgDc91TbCHS8u7k7TvHixm_JJF2NXzzf6RwAAAAHHZ9BxAA")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". !").split())
 
 
@@ -50,12 +50,12 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". !").split())
 
 # PM GUARD VARS
 PM_GUARD = bool(getenv("PM_GUARD", True))
-PM_GUARD_TEXT = getenv("PM_GUARD_TEXT", "**🥀 ʜᴇʏ, ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ & ꜱᴜᴘᴇʀꜰᴀꜱᴛ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ᴜꜱᴇʀʙᴏᴛ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴡɪᴛʜ ᴀɴ ᴜᴘɢʀᴀᴅᴇᴅ ᴠᴇʀꜱɪᴏɴ ꜱᴇᴄᴜʀɪᴛʏ ꜱʏꜱᴛᴇᴍ.\n\n🌿 ɪ ᴄᴀɴ'ᴛ ʟᴇᴛ ʏᴏᴜ ᴍᴇꜱꜱᴀɢᴇ ᴍʏ ᴏᴡɴᴇʀ'ꜱ ᴅᴍ ᴡɪᴛʜᴏᴜᴛ ᴍʏ ᴏᴡɴᴇʀ'ꜱ ᴘᴇʀᴍɪꜱꜱɪᴏɴ.\n\n❤️ ᴍʏ ᴏᴡɴᴇʀ ɪꜱ ᴏꜰꜰʟɪɴᴇ ɴᴏᴡ, ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴍʏ ᴏᴡɴᴇʀ ᴀʟʟᴏᴡꜱ ʏᴏᴜ.\n\n🍂 ᴘʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ʜᴇʀᴇ, ʙᴇᴄᴀᴜꜱᴇ ꜱᴘᴀᴍᴍɪɴɢ ᴡɪʟʟ ꜰᴏʀᴄᴇ ᴍᴇ ᴛᴏ ʙʟᴏᴄᴋ ʏᴏᴜ ꜰʀᴏᴍ ᴍʏ ᴏᴡɴᴇʀ ɪᴅ 👍🏻**")
-PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 5))
+PM_GUARD_TEXT = getenv("PM_GUARD_TEXT", ""**Telegram**")
+PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 
 
 # USERBOT DEFAULT IMAGE
-USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://files.catbox.moe/r58nec.jpg")
+USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://forestryexplained.co.za/wp-content/uploads/2020/01/Telegram-logo-Featured.jpg")
 
 
 
