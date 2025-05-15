@@ -109,7 +109,7 @@ async def run_async_clients():
     await app.start()
     LOGGER.info("Userbot Started.")
     try:
-        await app.send_message(LOG_GROUP_ID, "**sʜᴜᴋʟᴀ ᴜsᴇʀʙᴏᴛ ɪs ᴀʟɪᴠᴇ**")
+        await app.send_message(LOG_GROUP_ID, "**𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘 \n\n ᴜsᴇʀʙᴏᴛ ɪs ᴀʟɪᴠᴇ**")
     except:
         pass
     try:
@@ -122,19 +122,19 @@ async def run_async_clients():
         await ass.start()
         LOGGER.info("Assistant Started.")
         try:
-            await ass.send_message(LOG_GROUP_ID, "**Assistant Started.**")
+            await ass.send_message(LOG_GROUP_ID, "**Assistant Vanthuten.**")
         except:
             pass
         try:
-            await app.join_chat("MASTIWITHFRIENDSXD")
-            await app.join_chat("SHIVANSH474")
+            await app.join_chat("HeartBeat_Muzic")
+    
         except:
             pass
-    LOGGER.info("Starting Helper Robot ...")
+    LOGGER.info("Helper Robot Ready ...")
     await bot.start()
     LOGGER.info("Helper Robot Started.")
     try:
-        await bot.send_message(LOG_GROUP_ID, "**sʜᴜᴋʟᴀ ʀᴏʙᴏᴛ ɪs ᴀʟɪᴠᴇ.**")
+        await bot.send_message(LOG_GROUP_ID, "**𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘 \n\n ʀᴏʙᴏᴛ ɪs ᴀʟɪᴠᴇ.**")
     except:
         pass
     LOGGER.info("Starting PyTgCalls Client...")
