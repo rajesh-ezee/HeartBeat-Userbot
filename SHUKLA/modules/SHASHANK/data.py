@@ -110,4 +110,4 @@ PORM = [
        "https://graph.org/file/f21bcb4b8b9c421409b64.png"
        "https://graph.org/file/ffdb1be822436121cf5fd.png"
 ]
-OneWord = ["tag","tagall","raid","lovebeat","lifeline","honey","heart","chlm","chellam","chlakutty","umma","love","uruttu","pickup","pickupline"]
+OneWord = ["tag","tagall","raid","lovebeat","lifeline","honey","chlm","chellam","chlakutty","umma","luv","uruttu","pickup","pickupline"]
