@@ -17,5 +17,5 @@ async def get_call_stats(client, message):
 __NAME__ = "status"
 __MENU__ = """
 `.ping` - **Check call status
-Of Your Userbot Server.**
+Of Your bot Server.**
 """
