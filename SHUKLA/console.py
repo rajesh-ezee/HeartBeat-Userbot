@@ -36,7 +36,7 @@ MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002584641854"))
 OWNER_ID = int(getenv("OWNER_ID", "5802254428"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", None)
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5802254428").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1281282633 8071602126").split()))
 ALIVE_PIC = getenv("ALIVE_PIC", "https://forestryexplained.co.za/wp-content/uploads/2020/01/Telegram-logo-Featured.jpg")
 
 
