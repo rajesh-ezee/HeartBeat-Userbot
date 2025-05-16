@@ -28,20 +28,20 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", "29650844"))
-API_HASH = getenv("API_HASH", "6154d581d370cbdadd240292c456d7a2")
-BOT_TOKEN = getenv("BOT_TOKEN", "7285188191:AAGNcqe8WaqwnbB399m1CcJfLD4v5W0wJHY")
-STRING_SESSION = getenv("STRING_SESSION", "BQHEb5wAjh-VJhJTbGAt_16pIrZF4l6cjP-QxNGnnWSaWCZK7VXM4CeOa-7tvG2zawSFwjJ7j-2RgUSRQFMVNQG1MClEtmKV7gdGGiLliJLyQdAbclUPdpkqSWtyiQHrpekPh98VVCOPR97aryTuNZ1fDfIb5_fq0Ik1HTJNV3pv-YMpL2bcpM6r24rDmu_9v9L1wSkaZAQfXTPFNLZuuOspTwWFf-SWu15jYNn8KGohQOalyPkIDWCozJYarP4gwokvEb4EM55nP7GgeQFmc9YymT0hGoDQfNF91g-AOmCWTSqp2o9rU5EojNImgDc91TbCHS8u7k7TvHixm_JJF2NXzzf6RwAAAAHHZ9BxAA")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(getenv("API_ID", "28012365"))
+API_HASH = getenv("API_HASH", "40db55020f80e832af2404f81df3e1b4")
+BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAH-__dcUUYXs2c02mf9yapnWhCaI-J8i4Q")
+STRING_SESSION = getenv("STRING_SESSION", "BQGrb00AYPd624hkA8_vPHzvp9xvfwQE7VF6UiI0q6AD45zxqT_rv3s0N3cTXUmNKXfjyK9v_jCZhrprXbY9FXTTKUV26-o5rPZe5LGMgFgtFBpjpv-sd5f7JrESnWIPqs_wZG4PDLgh0iBrWf50qlCcPO0YC-Cah-KMORD4VbgzrGUKMZl8hyuKFjK_GkqEbew2b_PA763CsFEQRbzdL9ce49Z2FRPUnMCobOpkwQNa0hIqhS936rphXAvRs_L9v6P-DzxGTZ4RmdDnaGKxs5vfGExty1XwRgR4jMRi7jPUm2MkRErFmafoarrhT-mnEmtS2HNAub5VGfqUON_WYBzoTdVOJwAAAAHhGt_OAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002584641854"))
-OWNER_ID = int(getenv("OWNER_ID", "5802254428"))
-OWNER_USERNAME = getenv("OWNER_USERNAME", None)
+OWNER_ID = int(getenv("OWNER_ID", "8071602126"))
+OWNER_USERNAME = getenv("OWNER_USERNAME", Ghostt_Batt)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1281282633 8071602126").split()))
-ALIVE_PIC = getenv("ALIVE_PIC", "https://forestryexplained.co.za/wp-content/uploads/2020/01/Telegram-logo-Featured.jpg")
+ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/ffdb1be822436121cf5fd.png")
 
 
 # OPTIONAL VARIABLES
-SESSION_STRING = getenv("SESSION_STRING", "BQHEb5wAjh-VJhJTbGAt_16pIrZF4l6cjP-QxNGnnWSaWCZK7VXM4CeOa-7tvG2zawSFwjJ7j-2RgUSRQFMVNQG1MClEtmKV7gdGGiLliJLyQdAbclUPdpkqSWtyiQHrpekPh98VVCOPR97aryTuNZ1fDfIb5_fq0Ik1HTJNV3pv-YMpL2bcpM6r24rDmu_9v9L1wSkaZAQfXTPFNLZuuOspTwWFf-SWu15jYNn8KGohQOalyPkIDWCozJYarP4gwokvEb4EM55nP7GgeQFmc9YymT0hGoDQfNF91g-AOmCWTSqp2o9rU5EojNImgDc91TbCHS8u7k7TvHixm_JJF2NXzzf6RwAAAAHHZ9BxAA")
+SESSION_STRING = getenv("SESSION_STRING", "BQGrb00AYPd624hkA8_vPHzvp9xvfwQE7VF6UiI0q6AD45zxqT_rv3s0N3cTXUmNKXfjyK9v_jCZhrprXbY9FXTTKUV26-o5rPZe5LGMgFgtFBpjpv-sd5f7JrESnWIPqs_wZG4PDLgh0iBrWf50qlCcPO0YC-Cah-KMORD4VbgzrGUKMZl8hyuKFjK_GkqEbew2b_PA763CsFEQRbzdL9ce49Z2FRPUnMCobOpkwQNa0hIqhS936rphXAvRs_L9v6P-DzxGTZ4RmdDnaGKxs5vfGExty1XwRgR4jMRi7jPUm2MkRErFmafoarrhT-mnEmtS2HNAub5VGfqUON_WYBzoTdVOJwAAAAHhGt_OAA")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". !").split())
 
 
