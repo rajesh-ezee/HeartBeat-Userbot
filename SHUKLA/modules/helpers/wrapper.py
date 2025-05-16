@@ -1,3 +1,4 @@
+
 from pyrogram.types import *
 from traceback import format_exc
 
@@ -67,8 +68,8 @@ def inline_wrapper(func):
                 button = [
                     [
                         InlineKeyboardButton(
-                            "💥 Deploy Shukla Userbot ✨",
-                            url=f"https://github.com/itzshukla/STRANGER-OPUSERBOT2.0"
+                            "Deploy Your Own HeartBeat Bot",
+                            url=f"https://t.me/HeartBeat_Muzic"
                         )
                     ]
                 ]
@@ -111,4 +112,3 @@ def inline_wrapper(func):
            return await func(bot, query)
 
     return wrapper
-
