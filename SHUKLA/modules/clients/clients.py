@@ -113,8 +113,8 @@ async def run_async_clients():
     except:
         pass
     try:
-        await app.join_chat("MASTIWITHFRIENDSXD")
-        await app.join_chat("SHIVANSH474")
+        await app.join_chat("HeartBeat_Muzic")
+       
     except:
         pass
     if SESSION_STRING:
