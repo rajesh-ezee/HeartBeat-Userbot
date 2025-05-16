@@ -35,7 +35,7 @@ STRING_SESSION = getenv("STRING_SESSION", "BQGrb00AYPd624hkA8_vPHzvp9xvfwQE7VF6U
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002584641854"))
 OWNER_ID = int(getenv("OWNER_ID", "8071602126"))
-OWNER_USERNAME = getenv("OWNER_USERNAME", Ghostt_Batt)
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Ghostt_Batt")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1281282633 8071602126").split()))
 ALIVE_PIC = getenv("ALIVE_PIC", "https://graph.org/file/ffdb1be822436121cf5fd.png")
 
